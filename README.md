@@ -10,8 +10,8 @@ Key Features:
 
 How It Works:
 
-1) tracker_engine.py: Connects to Coinbase market data, downloads and processes live price information, performs risk and statistical calculations
-2) app.py: Converts engine outputs into interactive charts and displays data
+1) tracker_engine.py: Connects to Coinbase market data, downloads and processes live price information, performs risk and statistical calculations.
+2) app.py: Converts engine outputs into interactive charts and displays data,
 
 Run:
 1) Clone
