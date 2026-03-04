@@ -1,6 +1,6 @@
 COINBASE REAL-TIME QUANTITATIVE RISK ENGINE
 
-Crypto apps only show whether prices are going up or down. This terminal acts like a “Risk GPS,” using math to measure whether the market is behaving normally or showing unusual and potentially dangerous movement. Cnnects directly to Coinbase to analyze live price data for assets like Bitcoin, Ethereum, and Solana.
+A a high-density analytical dashboard designed to bypass retail market sentiment. Utilizes statistical modeling to determine if current market behavior is within normal parameters or exhibiting high-risk anomalies. Connects directly to Coinbase to analyze live price data for assets like Bitcoin, Ethereum, and Solana.
 
 Key Features:
 
@@ -10,8 +10,10 @@ Key Features:
 
 How It Works:
 
-The project has two main parts:
-
 1) tracker_engine.py: Connects to Coinbase market data, downloads and processes live price information, performs risk and statistical calculations
-
 2) app.py: Converts engine outputs into interactive charts and displays data
+
+Run:
+1) Clone
+2) Install Dependencies: pip install -r requirements.txt
+3) Launch dashboard run the command streamlit run app.py
