@@ -12,6 +12,6 @@ How It Works:
 
 The project has two main parts:
 
-1) tracker_engine.py: Connects to Coinbase market data, downloads and processes live price information, performs risk and statistical calculations.
+1) tracker_engine.py: Connects to Coinbase market data, downloads and processes live price information, performs risk and statistical calculations
 
-2) app.py: Converts engine outputs into interactive charts and displays data.
+2) app.py: Converts engine outputs into interactive charts and displays data
